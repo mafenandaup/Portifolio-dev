@@ -1,0 +1,21 @@
+#root {
+    --forest-green: #478926ff;
+    --mantis: #7bba44ff;
+    --green-yellow: #afeb61ff;
+    --notpureblack: rgb(31, 31, 31);
+    --baby-powder: #f4f5f0ff;
+    --lavender-blush: #e1d7e0ff;
+    --african-violet: #9f8bb2ff;
+    --rebecca-purple: #5c3e84ff;
+}
+
+footer {
+    background-color: var(--baby-powder);
+    min-width: 100vw;
+    min-height: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
