@@ -9,8 +9,25 @@
     --rebecca-purple: #5c3e84ff;
 }
 
-section{
+section {
     background-color: var(--baby-powder);
     min-width: 100vw;
     min-height: 500px;
+    padding: 30px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.6rem;
+}
+
+article {
+    padding: 10px;
+    border: 3px solid black; 
+    color: var(--mantis);
+}
+
+article h4, article h5, article p {
+    color: var(--forest-green); /* Corrigindo seletor */
+    font-size:1rem;
 }

@@ -10,6 +10,7 @@
 }
 
 .hero-contain {
+    padding: 30px;
     background-color: var(--lavender-blush);
     width: 100vw;
     height: 500px;
