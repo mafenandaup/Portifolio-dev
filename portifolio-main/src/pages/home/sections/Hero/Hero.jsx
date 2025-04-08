@@ -1,11 +1,11 @@
-
-
-
+import './Hero.css'
 function Hero() {
 
     return (
         <>
-            Hero
+            <div>
+                <h2>AAAAAAAAAAAAAAA</h2>
+            </div>
         </>
     )
 }
