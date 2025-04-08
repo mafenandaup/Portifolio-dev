@@ -13,7 +13,10 @@ section {
     background-color: var(--baby-powder);
     min-width: 100vw;
     min-height: 500px;
-    padding: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -22,6 +25,7 @@ h1 {
 }
 
 article {
+    width: 60vh;
     padding: 10px;
     border: 3px solid black; 
     color: var(--mantis);
@@ -30,4 +34,9 @@ article {
 article h4, article h5, article p {
     color: var(--forest-green); /* Corrigindo seletor */
     font-size:1rem;
+}
+img{
+    height: 350px;
+    border-radius: 50%;
+    filter: drop-shadow();
 }
