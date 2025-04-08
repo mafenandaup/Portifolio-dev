@@ -4,7 +4,10 @@ function About() {
     return (
         <>
             <section>
-                <h1>hi</h1>
+                
+                <article>
+                    <h1>Quem Sou Eu?</h1>
+                </article>
             </section>
         </>
     );

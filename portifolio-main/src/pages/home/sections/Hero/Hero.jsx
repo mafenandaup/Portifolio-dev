@@ -6,8 +6,9 @@ function Hero() {
             <nav className='navbar'>
                 <div className='navbar-links'>
                     <a href='#home'>Home</a>
-                    <a href='#about'>Sobre</a>
-                    <a href='#contact'>Contato</a>
+                    <a href='#about'>Projetos</a>
+                    <a href='#about'>Sobre Mim</a>
+                    <a href='#contact'>Minhas Redes</a>
                 </div>
             </nav>
 
