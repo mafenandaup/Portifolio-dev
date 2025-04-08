@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Testing React..</h1>
+        <h1>Quem sou eu?</h1>
       </div>
     </>
   )

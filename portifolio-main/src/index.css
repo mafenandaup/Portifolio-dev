@@ -9,13 +9,15 @@
     --lavender-blush: #e1d7e0ff;
     --african-violet: #9f8bb2ff;
     --rebecca-purple: #5c3e84ff;
-
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Rethink Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 body {
