@@ -10,12 +10,13 @@
 }
 
 footer {
-    background-color: var(--baby-powder);
-    min-width: 100vw;
-    min-height: 500px;
-    padding: 20px;
+    background-color: var(--african-violet);
+    color: var(--rebecca-purple);
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    width: 100vw;
+    height: 120px;
+
 }
