@@ -1,13 +1,21 @@
 import './Hero.css'
-function Hero() {
 
+function Hero() {
     return (
         <>
-            <div>
-                <h2>AAAAAAAAAAAAAAA</h2>
+            <nav className='navbar'>
+                <div className='navbar-links'>
+                    <a href='#home'>Home</a>
+                    <a href='#about'>Sobre</a>
+                    <a href='#contact'>Contato</a>
+                </div>
+            </nav>
+
+            <div className='hero-contain'>
+               
             </div>
         </>
-    )
+    );
 }
 
-export default Hero
+export default Hero;
