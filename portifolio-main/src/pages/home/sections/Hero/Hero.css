@@ -22,7 +22,6 @@
     justify-content: flex-end;
     align-items: center;
     width: 100vw;
-    rgb(34, 24, 24);
 }
 
 .navbar-links a {
@@ -30,5 +29,4 @@
     text-decoration: none;
     margin: 0 15px;
     font-size: 16px;
-    transition: color 0.3s;
 }
