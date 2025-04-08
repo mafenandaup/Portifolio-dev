@@ -20,7 +20,7 @@
     background-color: var(--forest-green);
     padding: 10px 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 3.8rem;
@@ -31,4 +31,14 @@
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.3rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-links a:hover{
+color: var(--green-yellow);
+}
+
+.navbar-links a:active {
+    color: var(--rebecca-purple);
+cursor: pointer;
 }
