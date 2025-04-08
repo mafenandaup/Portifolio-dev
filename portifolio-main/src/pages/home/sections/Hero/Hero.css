@@ -11,23 +11,18 @@
 }
 
 .hero-contain{
-    background-color:var(--african-violet);
+    background-color:var(--lavender-blush);
     width: 100vw;
     height: 500px;
 }
 
-.navbar{
-    background-color: black;
-}
-
-/* Estilização da Navbar */
 .navbar {
-    background-color: #333;
+    background-color: var(--forest-green);
     padding: 10px 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100vw;
+    width: 100vw;rgb(34, 24, 24);
 }
 
 .navbar-links a {
