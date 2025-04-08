@@ -1,4 +1,3 @@
-
 #root {
     --forest-green: #478926ff;
     --mantis: #7bba44ff;
@@ -10,8 +9,8 @@
     --rebecca-purple: #5c3e84ff;
 }
 
-.hero-contain{
-    background-color:var(--lavender-blush);
+.hero-contain {
+    background-color: var(--lavender-blush);
     width: 100vw;
     height: 500px;
 }
@@ -22,7 +21,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100vw;rgb(34, 24, 24);
+    width: 100vw;
+    rgb(34, 24, 24);
 }
 
 .navbar-links a {
@@ -32,5 +32,3 @@
     font-size: 16px;
     transition: color 0.3s;
 }
-
-
