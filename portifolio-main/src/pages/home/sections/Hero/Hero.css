@@ -42,3 +42,7 @@ color: var(--green-yellow);
     color: var(--rebecca-purple);
 cursor: pointer;
 }
+
+.mylogo img{
+    height: 45px;
+}

@@ -1,4 +1,5 @@
 import './Hero.css'
+import logoImage from "../../../../assets/imgs/nicelogo.png";
 
 function Hero() {
     return (
@@ -9,6 +10,9 @@ function Hero() {
                     <a href='#about'>Projetos</a>
                     <a href='#about'>Sobre Mim</a>
                     <a href='#contact'>Minhas Redes</a>
+                </div>
+                <div className='mylogo'>
+                    <img src={logoImage} alt="catlogo" />
                 </div>
             </nav>
 
