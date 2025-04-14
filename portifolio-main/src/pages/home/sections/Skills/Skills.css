@@ -10,5 +10,6 @@
 }
 
 .section-skills{
-    background: #000;
+    background: var(--notpureblack);
+    color: var(--baby-powder);
 }
