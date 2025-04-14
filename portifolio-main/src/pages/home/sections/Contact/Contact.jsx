@@ -4,7 +4,9 @@ function Contact() {
     return (
         <>
             <footer>
-<h1>Saiba onde me encontrar:</h1>
+                <div className='social-media'>
+                    <h1>Saiba onde me encontrar:</h1>
+                </div>
             </footer>
         </>
     );
