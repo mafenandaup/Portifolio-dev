@@ -27,10 +27,9 @@ gap: 5px;
     padding: 0.8rem;
     display: flex;
     width: auto;
-    gap: rem;
 
     & h1{
-        font-weight: 500;
+        font-weight: 600;
         font-size: 30px;
     }
 }
