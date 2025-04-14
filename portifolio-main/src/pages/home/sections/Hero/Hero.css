@@ -11,8 +11,8 @@
 
 .hero-contain {
     padding: 30px;
-    background-color: var(--lavender-blush);
-    width: 100vw;
+   background: linear-gradient(var(--lavender-blush)70%,var(--baby-powder));
+    min-width: 100vw;
     height: 500px;
 }
 
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    min-width: 100vw;
     height: 3.8rem;
 }
 

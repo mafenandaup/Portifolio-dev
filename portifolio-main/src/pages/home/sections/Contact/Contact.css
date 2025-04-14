@@ -10,13 +10,13 @@
 }
 
 footer {
-    background-color: var(--african-violet);
-    color: var(--rebecca-purple);
+    background-color: var(--mantis);
+    color: var(--notpureblack);
     padding: 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    min-width: 100vw;
     height: 120px;
 
 }
