@@ -14,25 +14,20 @@ footer {
     color: var(--baby-powder);
     padding: 20px 30px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+gap: 5px;
     min-width: 100vw;
     height: 250px;
 
-}
-
-.divisors{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(165, 223, 135);
-    padding: 30px;
 }
 
 .social-media{
     background-color: #478926ff;
     padding: 0.8rem;
     display: flex;
+    width: auto;
+    gap: rem;
 
     & h1{
         font-weight: 500;
