@@ -12,6 +12,7 @@ function About() {
                     <p>Meu foco é entregar projetos que possuam não apenas utilidade, mas também uma estética refinada e coesão nos elementos visuais. </p><br />
                     <p>Seja resolvendo problemas complexos ou me expressando criativamente, estou sempre aprendendo e cada vez mais, me aprimorando como profissional!  </p>
                 </article>
+                <div className='formacao-cv'></div>
             </section>
         </>
     );

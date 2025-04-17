@@ -23,7 +23,7 @@ footer {
 
 .social-media {
     border: solid var(--notpureblack) 3px;
-    padding: 0.8rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -35,8 +35,9 @@ footer {
 }
 
 .logo-adjust {
-    height: 2.7rem;
-    width: 2.7rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
     filter: brightness(0);
     transition: transform 0.3s ease;
     transform: scale(1);
