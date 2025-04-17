@@ -38,6 +38,7 @@ article h4, article h5, article p {
     font-size:1rem;
 }
 .autor-img{
+    border: solid white 2px;
     height: 350px;
     border-radius: 50%;
     filter: drop-shadow(-5px 10px 20px  #acacb2);
