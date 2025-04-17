@@ -41,18 +41,18 @@ img{
     height: 350px;
     border-radius: 50%;
     filter: drop-shadow(-5px 10px 20px  #acacb2);
-    animation: testOpacity 2s ease forwards, slideLeft 1s ease-in-out forwards;
+    animation: testOpacity 2s ease forwards, slideLeft 1s ease-out forwards;
 }
 
 @keyframes slideLeft {
 
     0%{
-        transform: translateX(-5px);
+        transform: translateX(-5rem);
         opacity: (0);
     }
 
     50%{
-        transform: translateX(-2px);
+        transform: translateX(-2rem);
         opacity: (0.5);
     }
 
