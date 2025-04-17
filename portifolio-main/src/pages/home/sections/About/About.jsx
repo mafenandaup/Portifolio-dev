@@ -5,7 +5,7 @@ function About() {
     return (
         <>
             <section>
-                <img src={iconImage} alt="foto da autora" />
+                <img src={iconImage} alt="foto da autora" className='autor-img' />
                 <article>
                     <h1>Além do Código</h1>
                     <p>Maria Fernanda, Front-end Developer</p><br />
