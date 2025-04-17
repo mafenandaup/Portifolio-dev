@@ -20,8 +20,8 @@ function Contact() {
                     <h1>Saiba onde me encontrar:</h1>
                 </div>
                 <span></span>
-                <div className='social-media' id='trademark'>
-                    <p>insira aqui o rodape</p>
+                <div className='social-media' id='copyright'>
+                    <p className='copyright-p'>&copy;Maria Fernanda Maia. Todos os direitos reservados</p>
                 </div>
                 <span></span>
             </footer>
