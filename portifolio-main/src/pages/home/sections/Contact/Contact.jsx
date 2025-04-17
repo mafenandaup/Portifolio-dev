@@ -19,9 +19,11 @@ function Contact() {
                 <div className='social-media'>
                     <h1>Saiba onde me encontrar:</h1>
                 </div>
+                <span></span>
                 <div className='social-media'>
                     <h1>Saiba onde me encontrar:</h1>
                 </div>
+                <span></span>
             </footer>
         </>
     );
