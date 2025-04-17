@@ -16,20 +16,39 @@ footer {
     display: flex;
     justify-content: space-between;
 
-gap: 5px;
+    gap: 5px;
     min-width: 100vw;
     height: 250px;
 
 }
 
-.social-media{
-    background-color: #478926ff;
+.social-media {
+    border: solid var(--notpureblack) 3px;
     padding: 0.8rem;
     display: flex;
+    flex-direction: column;
     width: auto;
 
-    & h1{
-        font-weight: 700;
+    & h1 {
+        font-weight: 600;
         font-size: 37px;
     }
+}
+
+.logo-adjust {
+    height: 2.7rem;
+    width: 2.7rem;
+    filter: brightness(0);
+}
+
+.logo-adjust:hover{
+    filter: drop-shadow(-5px 10px 20px  var(--notpureblack));
+    cursor: pointer;
+}
+
+.logos {
+    display: flex;
+    margin-top: 1rem;
+    gap: 0.5rem;
+   justify-content: flex-start;
 }
