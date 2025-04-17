@@ -4,7 +4,7 @@ function Skills() {
     return (
         <>
             <section className='section-skills'>
-                <h1>ehllo</h1>
+                <h1>Minhas habilidades:</h1>
             </section>
         </>
     )
