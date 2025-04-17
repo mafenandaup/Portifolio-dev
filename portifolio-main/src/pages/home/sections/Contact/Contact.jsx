@@ -15,6 +15,7 @@ function Contact() {
                         <img src={EMAILLogo} className='logo-adjust' alt="EMAIL-LOGO" />
                     </div>
                 </div>
+                <span></span>
                 <div className='social-media'>
                     <h1>Saiba onde me encontrar:</h1>
                 </div>

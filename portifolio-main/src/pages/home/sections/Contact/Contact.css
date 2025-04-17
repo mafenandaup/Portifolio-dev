@@ -14,9 +14,9 @@ footer {
     color: var(--notpureblack);
     padding: 20px 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
-    gap: 5px;
+    gap: 2rem;
     min-width: 100vw;
     height: 250px;
 
@@ -31,7 +31,7 @@ footer {
 
     & h1 {
         font-weight: 600;
-        font-size: 37px;
+        font-size: 30px;
     }
 }
 
