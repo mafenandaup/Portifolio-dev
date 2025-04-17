@@ -30,6 +30,7 @@ article {
     padding: 10px;
     border: 3px solid black; 
     color: var(--mantis);
+  
 }
 
 article h4, article h5, article p {
