@@ -9,7 +9,7 @@ function About() {
                 <article>
                     <h1>Além do Código</h1>
                     <p>Maria Fernanda, Front-end Developer</p><br />
-                    <p>hello</p>
+                    <p>Meu foco é entregar projetos que possuam não apenas utilidade, mas também uma estética. Seja resolvendo problemas complexos ou me expressando criativamente, estou constantemente em processo de aprendizado :) </p>
                 </article>
             </section>
         </>
