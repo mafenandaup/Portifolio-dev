@@ -17,12 +17,12 @@ footer {
     justify-content: center;
     gap: 2rem;
     min-width: 100vw;
-    height: 250px;
+    height: 200px;
 
 }
 
 .social-media {
-    border: solid var(--notpureblack) 3px;
+  
     padding: 1rem;
     display: flex;
     flex-direction: column;

@@ -21,7 +21,7 @@ function Contact() {
                 </div>
                 <span></span>
                 <div className='social-media' id='copyright'>
-                    <p className='copyright-p'>&copy;Maria Fernanda Maia. Todos os direitos reservados</p>
+                    <p className='copyright-p'>&copy;2025 Maria Fernanda Maia - Todos os direitos reservados.</p>
                 </div>
                 <span></span>
             </footer>
