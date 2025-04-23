@@ -19,7 +19,7 @@ function Contact() {
                 </div>
                 <div className='social-media'>
                     <h1>Quick Links</h1>
-                    <a href='#about'>Projetos</a>
+                    <i className='arrow right'></i><a href='#about'>Projetos</a>
                     <a href='#about'>Sobre Mim</a>
                     <a href='#contact'>Minhas Redes</a>
                     <a href='#home'>Home</a>
