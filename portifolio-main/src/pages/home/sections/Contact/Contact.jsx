@@ -3,10 +3,7 @@ import React from 'react';
 import GHLogo from "../../../../assets/imgs/githubicon.png";
 import LKDLogo from "../../../../assets/imgs/linkedinicon.png";
 import EMAILLogo from "../../../../assets/imgs/emailicon.png";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Hero from "../../../../pages/home/sections/Hero"
-import About from "../../../../pages/home/sections/About"
-import Skills from "../../../../pages/home/sections/Skills"
+
 
 function Contact() {
     return (
