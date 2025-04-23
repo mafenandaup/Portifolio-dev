@@ -3,6 +3,8 @@ import React from 'react';
 import GHLogo from "../../../../assets/imgs/githubicon.png";
 import LKDLogo from "../../../../assets/imgs/linkedinicon.png";
 import EMAILLogo from "../../../../assets/imgs/emailicon.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 
 function Contact() {
@@ -19,12 +21,23 @@ function Contact() {
                 </div>
                 <div className='social-media'>
                     <h1>Quick Links</h1>
-                    <i className='arrow right'></i><a href='#about'>Projetos</a>
-                    <a href='#about'>Sobre Mim</a>
-                    <a href='#contact'>Minhas Redes</a>
-                    <a href='#home'>Home</a>
-                    <a href='#contact'>Skills</a>
+                    <a href='#projects'>
+                        <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' />  Projetos
+                    </a>
+                    <a href='#about'>
+                        <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' />  Sobre Mim
+                    </a>
+                    <a href='#contact'>
+                        <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' /> Minhas Redes
+                    </a>
+                    <a href='#home'>
+                        <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' />  Home
+                    </a>
+                    <a href='#contact'>
+                        <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' />  Skills
+                    </a>
                 </div>
+
                 <div className='social-media' id='copyright'>
                     <p className='copyright-p'>&copy;2025 Maria Fernanda Maia - Todos os direitos reservados.</p>
                 </div>
