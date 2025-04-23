@@ -22,16 +22,31 @@ footer {
 }
 
 .social-media {
-  
+
     padding: 1rem;
     display: flex;
     flex-direction: column;
     width: 25rem;
 
     & h1 {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 30px;
     }
+
+    & a {
+        text-decoration: none;
+        color: var(--notpureblack);
+        transition: color 0.2s ease-in-out;
+    }
+}
+
+.social-media a:hover {
+    color: var(--mantis);
+}
+
+.social-media a:active {
+    color: var(--rebecca-purple);
+    cursor: pointer;
 }
 
 .logo-adjust {
@@ -46,7 +61,7 @@ footer {
 .logo-adjust:hover {
     cursor: pointer;
     transform: scale(1.1);
-    gap:3px;
+    gap: 3px;
 }
 
 .logos {
@@ -55,4 +70,3 @@ footer {
     gap: 0.5rem;
     justify-content: flex-start;
 }
-
