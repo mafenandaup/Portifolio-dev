@@ -14,8 +14,8 @@ footer {
     color: var(--notpureblack);
     padding: 20px 30px;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-evenly;
+    gap: 1rem;
     min-width: 100vw;
     height: 200px;
 

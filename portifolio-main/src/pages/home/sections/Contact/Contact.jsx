@@ -17,7 +17,6 @@ function Contact() {
                         <a href="mailto:mariafernandapmaia@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"><img src={EMAILLogo} className='logo-adjust' alt="EMAIL-LOGO" /></a>
                     </div>
                 </div>
-                <span></span>
                 <div className='social-media'>
                     <h1>Quick Links</h1>
                     <a href='#about'>Projetos</a>
@@ -26,11 +25,9 @@ function Contact() {
                     <a href='#home'>Home</a>
                     <a href='#contact'>Skills</a>
                 </div>
-                <span></span>
                 <div className='social-media' id='copyright'>
                     <p className='copyright-p'>&copy;2025 Maria Fernanda Maia - Todos os direitos reservados.</p>
                 </div>
-                <span></span>
             </footer>
         </>
     );
