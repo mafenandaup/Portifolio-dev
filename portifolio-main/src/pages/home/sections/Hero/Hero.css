@@ -11,7 +11,7 @@
 
 .hero-contain {
     padding: 30px;
-   background: linear-gradient(var(--lavender-blush)70%,var(--baby-powder));
+    background: linear-gradient(var(--lavender-blush)70%, var(--baby-powder));
     min-width: 100vw;
     height: 500px;
 }
@@ -34,15 +34,15 @@
     transition: color 0.2s ease-in-out;
 }
 
-.navbar-links a:hover{
-color: var(--green-yellow);
+.navbar-links a:hover {
+    color: var(--green-yellow);
 }
 
 .navbar-links a:active {
     color: var(--rebecca-purple);
-cursor: pointer;
+    cursor: pointer;
 }
 
-.mylogo img{
+.mylogo img {
     height: 45px;
 }
