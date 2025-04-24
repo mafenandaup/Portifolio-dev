@@ -7,8 +7,8 @@ function Hero() {
             <nav className='navbar'>
                 <div className='navbar-links'>
                     <a href='#home'>Home</a>
-                    <a href='#contact'>Skills</a>
-                    <a href='#about'>Projetos</a>
+                    <a href='#skills'>Skills</a>
+                    <a href='#projects'>Projetos</a>
                     <a href='#about'>Sobre Mim</a>
                     <a href='#contact'>Minhas Redes</a>
                 </div>
@@ -17,9 +17,9 @@ function Hero() {
                 </div>
             </nav>
 
-            <div className='hero-contain'>
+            <section className='hero-contain'id='home'>
 
-            </div>
+            </section>
         </>
     );
 }

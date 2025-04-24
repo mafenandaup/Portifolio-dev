@@ -5,7 +5,7 @@ function Projects() {
     return (
         <>
 
-            <section className='section-projects'>
+            <section className='section-projects' id='projects'>
                 <h1>Meus projetos:</h1>
             </section>
 

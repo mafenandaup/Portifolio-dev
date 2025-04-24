@@ -4,7 +4,7 @@ import iconImage from "../../../../assets/imgs/icon.jpg";
 function About() {
     return (
         <>
-            <section>
+            <section id='about'>
                 <img src={iconImage} alt="foto da autora" className='autor-img' />
                 <article>
                     <h1>Além do Código</h1>

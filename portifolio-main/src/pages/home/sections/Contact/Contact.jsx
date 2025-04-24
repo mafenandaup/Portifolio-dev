@@ -10,7 +10,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 function Contact() {
     return (
         <>
-            <footer>
+            <footer id='contact'>
                 <div className='social-media'>
                     <h1>Saiba onde me encontrar</h1>
                     <div className='logos'>
@@ -27,13 +27,10 @@ function Contact() {
                     <a href='#about'>
                         <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' />  Sobre Mim
                     </a>
-                    <a href='#contact'>
-                        <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' /> Minhas Redes
-                    </a>
                     <a href='#home'>
                         <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' />  Home
                     </a>
-                    <a href='#contact'>
+                    <a href='#skills'>
                         <FontAwesomeIcon icon={faAngleRight} className='arrow-icon' />  Skills
                     </a>
                 </div>
