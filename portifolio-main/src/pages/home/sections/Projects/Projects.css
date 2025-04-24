@@ -9,7 +9,10 @@
     --rebecca-purple: #5c3e84ff;
 }
 
-.section-skills{
+.section-projects{
     background: var(--notpureblack);
     color: var(--baby-powder);
+   width: 100vh;
+    display: flex;
+    justify-content: center;
 }
