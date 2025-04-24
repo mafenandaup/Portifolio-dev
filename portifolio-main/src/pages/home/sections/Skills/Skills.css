@@ -12,4 +12,7 @@
 .section-skills{
     background: var(--notpureblack);
     color: var(--baby-powder);
+   width: 100vh;
+    display: flex;
+    justify-content: center;
 }

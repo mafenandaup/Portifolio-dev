@@ -8,3 +8,8 @@
     --african-violet: #9f8bb2ff;
     --rebecca-purple: #5c3e84ff;
 }
+
+.section-skills{
+    background: var(--notpureblack);
+    color: var(--baby-powder);
+}
