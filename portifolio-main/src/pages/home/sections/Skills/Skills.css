@@ -10,7 +10,7 @@
 }
 
 .section-skills {
-    background: var(--mantis);
+    background: linear-gradient(var(--mantis), var(--notpureblack));
     color: var(--baby-powder);
     min-width: 100vw;
     height: 500px;
