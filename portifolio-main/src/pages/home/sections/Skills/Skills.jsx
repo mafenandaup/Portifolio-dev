@@ -10,7 +10,7 @@ function Skills() {
                 <div className='skills-cont'>
                     {skill.map((skill) => {
                         return (
-                            <Skill    key={skill.title}     desc={skill.desc || "N/A"}  title={skill.title} img={skill.img}></Skill>
+                            <Skill key={skill.title} title={skill.title} img={skill.img}></Skill>
                         )
                     })}
                 </div>
