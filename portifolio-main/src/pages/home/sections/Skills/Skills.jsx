@@ -1,14 +1,18 @@
 import './Skills.css'
 import { Skill } from './Skill'
-// import { Skill } from './Skills.json'
+import { skill } from './Skills.json'
 
 function Skills() {
     return (
         <>
-            <section className='section-skills'id='skills'>
+            <section className='section-skills' id='skills'>
                 <h1>Minhas habilidades:</h1>
-                <div>
-                  
+                <div className='skills-cont'>
+                    {skill.map((skill) => {
+                        return (
+                            <Skill    key={skill.title}     desc={skill.desc || "N/A"}  title={skill.title} img={skill.img}></Skill>
+                        )
+                    })}
                 </div>
             </section>
         </>

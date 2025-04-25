@@ -1,65 +1,65 @@
 {
-    "Skill": [
-        {
-            "title": "JavaScript",
-            "img": "https://img.icons8.com/?size=100&id=39853&format=png&color=000000"
-        },
-        {
-            "title": "Node.js",
-            "img": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000"
-        },
-        {
-            "title": "React",
-            "img": "https://img.icons8.com/?size=100&id=35989&format=png&color=000000"
-        },
-        {
-            "title": "HTML",
-            "img": "https://img.icons8.com/?size=100&id=23028&format=png&color=000000"
-        },
-        {
-            "title": "CSS",
-            "img": "https://img.icons8.com/?size=100&id=38273&format=png&color=000000"
-        },
-        {
-            "title": "Java",
-            "img": "https://img.icons8.com/?size=100&id=38294&format=png&color=000000"
-        },
-        {
-            "title": "Microsoft Excel",
-            "img": "https://img.icons8.com/?size=100&id=11594&format=png&color=000000"
-        },
-        {
-            "title": "Power Point",
-            "img": "https://img.icons8.com/?size=100&id=WWefM3SNTVco&format=png&color=000000"
-        },
-        {
-            "title": "Microsoft Word",
-            "img": "https://img.icons8.com/?size=100&id=11591&format=png&color=000000"
-        },
-        {
-            "title": "Git",
-            "img": "https://img.icons8.com/?size=100&id=38389&format=png&color=000000"
-        },
-        {
-            "title": "Github",
-            "img": "https://img.icons8.com/?size=100&id=62856&format=png&color=000000"
-        },
-        {
-            "title": "Trello",
-            "img": "https://img.icons8.com/?size=100&id=38571&format=png&color=000000"
-        },
-        {
-            "title": "Adobe Photoshop",
-            "img": "https://img.icons8.com/?size=100&id=60629&format=png&color=000000"
-        },
-        {
-            "title": "Figma",
-            "img": "https://img.icons8.com/?size=100&id=amXjtNWVYSKP&format=png&color=000000"
-        },
-        {
-            "title": "MongoDB",
-            "img": "https://img.icons8.com/?size=100&id=8305&format=png&color=000000"
-        }
-        
+    "skill": [
+      {
+        "title": "JavaScript",
+        "image": "https://img.icons8.com/?size=100&id=39853&format=png"
+      },
+      {
+        "title": "Node.js",
+        "image": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png"
+      },
+      {
+        "title": "React",
+        "image": "https://img.icons8.com/?size=100&id=35989&format=png"
+      },
+      {
+        "title": "HTML",
+        "image": "https://img.icons8.com/?size=100&id=23028&format=png"
+      },
+      {
+        "title": "CSS",
+        "image": "https://img.icons8.com/?size=100&id=38273&format=png"
+      },
+      {
+        "title": "Java",
+        "image": "https://img.icons8.com/?size=100&id=38294&format=png"
+      },
+      {
+        "title": "Microsoft Excel",
+        "image": "https://img.icons8.com/?size=100&id=11594&format=png"
+      },
+      {
+        "title": "Power Point",
+        "image": "https://img.icons8.com/?size=100&id=WWefM3SNTVco&format=png"
+      },
+      {
+        "title": "Microsoft Word",
+        "image": "https://img.icons8.com/?size=100&id=11591&format=png"
+      },
+      {
+        "title": "Git",
+        "image": "https://img.icons8.com/?size=100&id=38389&format=png"
+      },
+      {
+        "title": "Github",
+        "image": "https://img.icons8.com/?size=100&id=62856&format=png"
+      },
+      {
+        "title": "Trello",
+        "image": "https://img.icons8.com/?size=100&id=38571&format=png"
+      },
+      {
+        "title": "Adobe Photoshop",
+        "image": "https://img.icons8.com/?size=100&id=60629&format=png"
+      },
+      {
+        "title": "Figma",
+        "image": "https://img.icons8.com/?size=100&id=amXjtNWVYSKP&format=png"
+      },
+      {
+        "title": "MongoDB",
+        "image": "https://img.icons8.com/?size=100&id=8305&format=png"
+      }
     ]
-}
+  }
+  

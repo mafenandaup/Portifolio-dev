@@ -1,8 +1,9 @@
-export function Skill({title, desc}) {
+export function Skill({ title, image }) {
     return (
-        <>
-            <h2>{title}</h2>
-            <p>{desc}</p>
-        </>
+      <div className="skill-item">
+        <img src={image} alt={`${title} logo`} className="skill-icon" />
+        <h2>{title}</h2>
+      </div>
     );
-}
+  }
+  

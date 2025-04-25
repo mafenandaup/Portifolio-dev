@@ -15,5 +15,19 @@
     min-width: 100vw;
     height: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
+
+.skills-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+.skill-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
