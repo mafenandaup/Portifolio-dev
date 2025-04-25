@@ -1,0 +1,24 @@
+{
+    "Skill": [
+        {
+            "title": "JavaScript",
+            "img": "https://img.icons8.com/?size=100&id=39853&format=png&color=000000"
+        },
+        {
+            "title": "Node.js",
+            "img": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000"
+        },
+        {
+            "title": "React",
+            "img": "https://img.icons8.com/?size=100&id=9Bz1krgB6FdC&format=png"
+        },
+        {
+            "title": "HTML",
+            "img": "https://img.icons8.com/?size=100&id=18275&format=png"
+        },
+        {
+            "title": "CSS",
+            "img": "https://img.icons8.com/?size=100&id=21278&format=png"
+        }
+    ]
+}
