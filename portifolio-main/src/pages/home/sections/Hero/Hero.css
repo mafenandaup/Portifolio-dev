@@ -60,6 +60,7 @@
     background: var(--forest-green);
     border: solid 0px;
     border-radius: 8px;
+    transition: color 0.2s ease-in-out;
 
     & a {
         text-decoration: none;
@@ -67,5 +68,16 @@
         display: flex; /* Flexbox para alinhar texto e ícone */
         align-items: center; /* Alinha verticalmente */
         gap: 0.5rem; /* Espaço entre o texto e o ícone */
+        transition: color 0.2s ease-in-out;
+    }
+}
+
+.action-button:hover{
+    border: solid var(--forest-green) 2px;
+    background-color: var(--lavender-blush);
+    cursor: pointer;
+
+    & a{
+        color: var(--forest-green);
     }
 }
