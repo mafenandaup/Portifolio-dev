@@ -1,6 +1,7 @@
 import './Hero.css'
 import logoImage from "../../../../assets/imgs/nicelogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-regular-svg-icons';
 
 function Hero() {
     return (
@@ -27,7 +28,9 @@ function Hero() {
                     </button>
 
                     <button className='action-button'>
-                        <a href=""><h3>DOWNLOAD CV</h3>
+                        <a href="">
+                            <h3>DOWNLOAD CV</h3>
+                            <FontAwesomeIcon icon={faFile} />
                         </a>
                     </button>
                 </div>
