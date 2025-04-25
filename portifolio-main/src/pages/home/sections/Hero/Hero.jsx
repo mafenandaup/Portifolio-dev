@@ -20,7 +20,7 @@ function Hero() {
             </nav>
 
             <section className='hero-contain' id='home'>
-                <div className='action-button-cont'>
+                <div className='button-container'>
                     <button className='action-button'>
                         <a href="">
                             <h3>ENTRE EM CONTATO</h3>
@@ -29,8 +29,7 @@ function Hero() {
 
                     <button className='action-button'>
                         <a href="">
-                            <h3>DOWNLOAD CV</h3>
-                            <FontAwesomeIcon icon={faFile} />
+                            <h3>DOWNLOAD CV</h3> <FontAwesomeIcon icon={faFile} />
                         </a>
                     </button>
                 </div>

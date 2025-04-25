@@ -1,6 +1,6 @@
 import './Skills.css'
 import { Skill } from './Skill'
-import { Skill } from './Skills.json'
+// import { Skill } from './Skills.json'
 
 function Skills() {
     return (

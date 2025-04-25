@@ -46,3 +46,26 @@
 .mylogo img {
     height: 45px;
 }
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background: var(--forest-green);
+    border: solid 0px;
+    border-radius: 8px;
+
+    & a {
+        text-decoration: none;
+        color: var(--baby-powder);
+        display: flex; /* Flexbox para alinhar texto e ícone */
+        align-items: center; /* Alinha verticalmente */
+        gap: 0.5rem; /* Espaço entre o texto e o ícone */
+    }
+}
