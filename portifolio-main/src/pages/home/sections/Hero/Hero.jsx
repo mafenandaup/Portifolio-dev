@@ -1,5 +1,6 @@
 import './Hero.css'
 import logoImage from "../../../../assets/imgs/nicelogo.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Hero() {
     return (
@@ -17,8 +18,19 @@ function Hero() {
                 </div>
             </nav>
 
-            <section className='hero-contain'id='home'>
+            <section className='hero-contain' id='home'>
+                <div className='action-button-cont'>
+                    <button className='action-button'>
+                        <a href="">
+                            <h3>ENTRE EM CONTATO</h3>
+                        </a>
+                    </button>
 
+                    <button className='action-button'>
+                        <a href=""><h3>DOWNLOAD CV</h3>
+                        </a>
+                    </button>
+                </div>
             </section>
         </>
     );
