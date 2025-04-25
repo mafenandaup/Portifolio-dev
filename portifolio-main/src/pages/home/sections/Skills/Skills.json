@@ -10,15 +10,52 @@
         },
         {
             "title": "React",
-            "img": "https://img.icons8.com/?size=100&id=9Bz1krgB6FdC&format=png"
+            "img": "https://img.icons8.com/?size=100&id=35989&format=png&color=000000"
         },
         {
             "title": "HTML",
-            "img": "https://img.icons8.com/?size=100&id=18275&format=png"
+            "img": "https://img.icons8.com/?size=100&id=23028&format=png&color=000000"
         },
         {
             "title": "CSS",
-            "img": "https://img.icons8.com/?size=100&id=21278&format=png"
-        }
+            "img": "https://img.icons8.com/?size=100&id=38273&format=png&color=000000"
+        },
+        {
+            "title": "Java",
+            "img": ""
+        },
+        {
+            "title": "Microsoft Excel",
+            "img": ""
+        },
+        {
+            "title": "Power Point",
+            "img": ""
+        },
+        {
+            "title": "Microsoft Word",
+            "img": ""
+        },
+        {
+            "title": "Git",
+            "img": ""
+        },
+        {
+            "title": "Github",
+            "img": ""
+        },
+        {
+            "title": "Trello",
+            "img": ""
+        },
+        {
+            "title": "Adobe Photoshop",
+            "img": ""
+        },
+        {
+            "title": "Figma",
+            "img": ""
+        },
+        
     ]
 }
