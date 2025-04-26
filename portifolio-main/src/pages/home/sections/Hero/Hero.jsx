@@ -2,6 +2,7 @@ import './Hero.css'
 import logoImage from "../../../../assets/imgs/nicelogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
+import cv from '../Hero/curriculum.pdf'
 
 
 
@@ -24,13 +25,13 @@ function Hero() {
             <section className='hero-contain' id='home'>
                 <div className='button-container'>
                     <button className='action-button'>
-                        <a href="">
+                        <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
                             <h3>ENTRE EM CONTATO</h3> <FontAwesomeIcon icon={faEnvelope} />
                         </a>
                     </button>
 
                     <button className='action-button'>
-                        <a href="">
+                        <a href={cv} download={cv} aria-label='Curriculum'>
                             <h3>DOWNLOAD CV</h3> <FontAwesomeIcon icon={faEnvelopeOpenText} />
                         </a>
                     </button>

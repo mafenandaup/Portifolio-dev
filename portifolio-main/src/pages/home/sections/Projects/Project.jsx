@@ -1,11 +1,11 @@
 export function Project({ title, img, desc,ytlink,srccode }) {
     return (
-        <div className="skill-item">
-            <img src={img} alt={`${title} logo`} className="skill-icon" />
+        <div className="project-item">
+            <img src={img} alt={`${title}`} className="project-img" />
             <h2>{title}</h2>
             <p>{desc}</p>
-            <button><a href={srccode} target="_blank" rel="noopener noreferrer"></a>CÓDIGO FONTE</button>
-            <button><a href={ytlink} target="_blank" rel="noopener noreferrer"></a>VIDEO DE DEMONSTRAÇÃO</button>
+            <a href={srccode} target="_blank" rel="noopener noreferrer"><button>CÓDIGO FONTE</button></a>
+            <a href={ytlink} target="_blank" rel="noopener noreferrer"><button>VIDEO DE DEMONSTRAÇÃO</button></a>
         </div>
     );
 }
