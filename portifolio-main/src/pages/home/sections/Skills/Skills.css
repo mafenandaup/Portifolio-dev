@@ -35,8 +35,10 @@
     padding: 5px;
     width: 9.5rem;
     height: 10rem;
-    text-align:initial;
-font-size: 0.8rem;
+
+    & h2 {
+        font-size: 0.9rem;
+    }
 }
 
 .skill-icon {
