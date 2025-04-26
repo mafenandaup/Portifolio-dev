@@ -45,10 +45,6 @@
         "image": "https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000"
       },
       {
-        "title": "Trello",
-        "image": "https://img.icons8.com/?size=100&id=38571&format=png"
-      },
-      {
         "title": "Adobe Photoshop",
         "image": "https://img.icons8.com/?size=100&id=60629&format=png"
       },
@@ -61,8 +57,12 @@
         "image": "https://img.icons8.com/?size=100&id=8305&format=png"
       },
       {
-        "title": "MongoDB",
-        "image": "https://img.icons8.com/?size=100&id=8305&format=png"
+        "title": "VSCode",
+        "image": "https://img.icons8.com/?size=100&id=121602&format=png&color=000000"
+      },
+      {
+        "title": "EclipseIDE",
+        "image": "https://img.icons8.com/?size=100&id=w1uD6vtDitjr&format=png&color=000000"
       }
     ]
   }
