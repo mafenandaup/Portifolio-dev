@@ -16,7 +16,7 @@
     height: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 
 .skills-cont {
@@ -27,7 +27,8 @@
 }
 
 .skill-item {
-    border: solid var(--lavender-blush) 2PX;
+    border: solid var(--lavender-blush) 3PX;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +43,8 @@
 }
 
 .skill-icon {
-    width: 100px;
+    width: 5rem;
     height: auto;
     margin-bottom: 0.5rem;
+    filter:invert() brightness(0.85);
 }
