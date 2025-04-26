@@ -9,6 +9,10 @@
     --rebecca-purple: #5c3e84ff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 footer {
     background-color: var(--lavender-blush);
     color: var(--notpureblack);

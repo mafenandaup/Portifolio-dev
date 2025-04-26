@@ -9,6 +9,10 @@
     --rebecca-purple: #5c3e84ff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hero-contain {
     padding: 30px;
     background: linear-gradient(var(--lavender-blush)70%, var(--baby-powder));
