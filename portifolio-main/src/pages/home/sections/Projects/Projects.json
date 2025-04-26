@@ -1,11 +1,18 @@
 {
     "project": [
         {
-"title": "meu primeiro projeto",
-"desc": "essa é a desc do meu primeiro projeto",
-"img":"",
-"sourcecode": "",
-"ytlink": ""
-        }
+          "title": "Todo-list (Jan. 2025)",
+          "desc": "Um protótipo simples de lista de tarefas, que lhe permite criar, deletar e concluí-las.",
+          "img":"",
+          "sourcecode": "",
+          "ytlink": "https://youtu.be/NbsaxzC-7FU"
+                  },
+                  {
+          "title": "Meu Portifólio (Abril 2025)",
+           "desc": "essa é a desc do meu primeiro projeto",
+            "img":"",
+            "sourcecode": "https://github.com/mafenandaup/Portifolio-dev",
+             "ytlink": ""
+                            }
   ]
 }
