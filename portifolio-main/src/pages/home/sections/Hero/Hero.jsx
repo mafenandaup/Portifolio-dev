@@ -3,6 +3,8 @@ import logoImage from "../../../../assets/imgs/nicelogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
 import cv from '../Hero/curriculum.pdf'
+// eslint-disable-next-line no-unused-vars
+import { motion, scale } from "framer-motion";
 
 
 
@@ -24,17 +26,17 @@ function Hero() {
 
             <section className='hero-contain' id='home'>
                 <div className='button-container'>
-                    <button className='action-button'>
+                    <motion.button whileHover={{scale: 1.1}} className='action-button'>
                         <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
                             <h3>ENTRE EM CONTATO</h3> <FontAwesomeIcon icon={faEnvelope} />
                         </a>
-                    </button>
+                    </motion.button>
 
-                    <button className='action-button'>
+                    <motion.button whileHover={{scale: 1.1}}  className='action-button'>
                         <a href={cv} download={cv} aria-label='Curriculum'>
                             <h3>DOWNLOAD CV</h3> <FontAwesomeIcon icon={faEnvelopeOpenText} />
                         </a>
-                    </button>
+                    </motion.button>
                 </div>
             </section>
         </>
