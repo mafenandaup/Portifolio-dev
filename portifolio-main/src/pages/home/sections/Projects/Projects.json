@@ -3,7 +3,7 @@
         {
           "title": "Todo-list (Jan. 2025)",
           "desc": "Um protótipo simples de lista de tarefas, que lhe permite criar, deletar e concluí-las.",
-          "img":"../../../../assets/imgs/projectimgs/todolist.png",
+          "img":"/assets/imgs/projectimgs/todolist.png",
           "srccode": "",
           "ytlink": "https://youtu.be/NbsaxzC-7FU"
                   },

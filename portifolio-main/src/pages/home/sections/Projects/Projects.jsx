@@ -10,7 +10,9 @@ function Projects() {
             <section className='section-projects' id='projects'>
                 <h1>Meus projetos:</h1>
                 <div className="project-cont">
-               
+                {project.map((project) => (
+                    <Project key={project.title} title={project.title} img={project.img} desc={project.desc} srccode={project.srccode} ytlink={project.ytlink}/>
+                ))}
                 </div>
             </section>
         </>
