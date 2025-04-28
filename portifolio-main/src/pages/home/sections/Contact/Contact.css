@@ -59,13 +59,10 @@ footer {
     height: 2rem;
     width: 2rem;
     filter: brightness(0);
-    transition: transform 0.3s ease;
-    transform: scale(1);
 }
 
 .logo-adjust:hover {
     cursor: pointer;
-    transform: scale(1.1);
     gap: 3px;
 }
 
