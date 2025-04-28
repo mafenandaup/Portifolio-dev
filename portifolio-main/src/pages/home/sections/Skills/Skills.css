@@ -36,10 +36,17 @@
     padding: 5px;
     width: 9.5rem;
     height: 10rem;
+    transition: background-color 0.4s ease-out;
+
 
     & h2 {
         font-size: 0.9rem;
     }
+}
+
+.skill-item:hover{
+    background-color: rgba(0, 0, 0, 0.441);
+    cursor: pointer;
 }
 
 .skill-icon {
