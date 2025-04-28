@@ -1,6 +1,6 @@
 import './About.css'
 import iconImage from "../../../../assets/imgs/icon.jpg";
-import { motion } from "motion/react"
+
 
 function About() {
     return (

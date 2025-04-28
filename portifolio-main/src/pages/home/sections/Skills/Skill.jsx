@@ -1,3 +1,5 @@
+
+
 export function Skill({ title, image }) {
     return (
         <div className="skill-item">
