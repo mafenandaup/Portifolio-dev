@@ -23,13 +23,9 @@ function About() {
                 <article>
                     <h1>Além do Código</h1>
                     <p>Maria Fernanda, Front-end Developer</p><br />
-                    <p>Sou uma entusiasta de design e gatinhos (altera isso depois pfv)</p><br />
-                    <p>Meu foco é entregar projetos que possuam não apenas utilidade, mas também uma estética refinada e coesão nos elementos visuais. </p><br />
+                    <p>Graduanda em Engenharia de Software pela UCSAL, sou uma profissional imersa na busca por ressonância entre design e funcionalidade, sempre priorizando a simplicidade e a excelência na experiência do usuário.</p><br />
+                    <p>Meu foco é entregar projetos que possuam não apenas utilidade, mas também uma estética refinada, intuitiva e coesão nos elementos visuais. </p><br />
                     <p>Seja resolvendo problemas complexos ou me expressando criativamente, estou sempre aprendendo e cada vez mais me aprimorando como profissional. </p>
-                    <div className='formacao-cv'>
-                        <div className='formacao'></div>
-                        <div className='formacao'></div>
-                    </div>
                 </article>
 
             </section>
