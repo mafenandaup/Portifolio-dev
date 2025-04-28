@@ -20,19 +20,19 @@ function Hero() {
                     <a href='#contact'>Minhas Redes</a>
                 </div>
                 <div className='mylogo'>
-                    <img src={logoImage} alt="catlogo" />
+                    <motion.img whileTap={{rotate:10}} src={logoImage} alt="catlogo" />
                 </div>
             </nav>
 
             <section className='hero-contain' id='home'>
                 <div className='button-container'>
-                    <motion.button whileHover={{scale: 1.1}} className='action-button'>
+                    <motion.button whileHover={{scale: 1.1}} whileTap={{ scale: 1}} className='action-button'>
                         <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
                             <h3>ENTRE EM CONTATO</h3> <FontAwesomeIcon icon={faEnvelope} />
                         </a>
                     </motion.button>
 
-                    <motion.button whileHover={{scale: 1.1}}  className='action-button'>
+                    <motion.button whileHover={{scale: 1.1}}whileTap={{ scale: 1}}  className='action-button'>
                         <a href={cv} download={cv} aria-label='Curriculum'>
                             <h3>DOWNLOAD CV</h3> <FontAwesomeIcon icon={faEnvelopeOpenText} />
                         </a>
