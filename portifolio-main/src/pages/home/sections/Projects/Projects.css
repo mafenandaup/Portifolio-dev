@@ -42,20 +42,32 @@ gap: 2rem;
     }
 }
 
-.button-proj{
+.button-proj {
     display: flex;
     gap: 1rem;
-
-    & button{
-        padding: 10px;
-        border-radius: 10px;
-        border-radius: 8px;
-        color: var(--notpureblack);
-        background-color:var(--baby-powder);
-        border: solid black 0px;
-    }
 }
 
-.button-proj button:hover{
-cursor: pointer;
+.button-proj button {
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--notpureblack);
+    background-color: var(--baby-powder);
+    border: solid black 0px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button-proj button.has-link:hover {
+    background-color: var(--forest-green);
+    color: var(--baby-powder);
+}
+
+.button-proj button.no-link:hover {
+    background-color: grey;
+    color: var(--baby-powder);
+}
+
+.button-proj button a {
+    text-decoration: none;
+    color: inherit;
 }
