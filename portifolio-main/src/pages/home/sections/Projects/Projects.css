@@ -69,6 +69,7 @@
 .button-proj button.no-link:hover {
     background-color: grey;
     color: var(--baby-powder);
+    cursor: not-allowed;
 }
 
 .button-proj button a {
