@@ -1,5 +1,5 @@
 import './Hero.css'
-import logoImage from "../../../../assets/imgs/nicelogo.png";
+import logoImage from "../../../../../public/assets/imgs/nicelogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
 import cv from '../Hero/curriculum.pdf'

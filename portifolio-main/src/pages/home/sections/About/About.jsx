@@ -1,5 +1,5 @@
 import './About.css'
-import iconImage from "../../../../assets/imgs/icon.jpg";
+import iconImage from "../../../../../public/assets/imgs/icon.jpg";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { useRef } from "react";

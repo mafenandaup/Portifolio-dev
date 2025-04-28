@@ -1,8 +1,8 @@
 import './Contact.css'
 import React from 'react';
-import GHLogo from "../../../../assets/imgs/githubicon.png";
-import LKDLogo from "../../../../assets/imgs/linkedinicon.png";
-import EMAILLogo from "../../../../assets/imgs/emailicon.png";
+import GHLogo from "../../../../../public/assets/imgs/githubicon.png";
+import LKDLogo from "../../../../../public/assets/imgs/linkedinicon.png";
+import EMAILLogo from "../../../../../public/assets/imgs/emailicon.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 // eslint-disable-next-line no-unused-vars

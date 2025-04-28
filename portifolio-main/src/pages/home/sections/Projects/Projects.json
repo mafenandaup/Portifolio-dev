@@ -3,14 +3,14 @@
     {
       "title": "Todo-list (Jan. 2025)",
       "desc": "Um protótipo simples de lista de tarefas, que lhe permite criar, deletar e concluí-las.",
-      "img": "/assets/imgs/projectimgs/todolist.png",
+      "img": "../../../../../public/assets/imgs/todolist.png",
       "srccode": "",
       "ytlink": "https://youtu.be/NbsaxzC-7FU"
     },
     {
       "title": "Meu Portfólio (Abril 2025)",
       "desc": "Essa é a descrição do meu primeiro projeto.",
-      "img": "/assets/imgs/projectimgs/portifolio.png",
+      "img": "../../../../../public/assets/imgs/portifolio.png",
       "srccode": "https://github.com/mafenandaup/Portifolio-dev",
       "ytlink": ""
     }
