@@ -9,7 +9,7 @@ const skillVariants = {
     visible: {
         opacity: 1,
         transition: {
-            staggerChildren: 0.1, 
+            staggerChildren: 0.1,
         },
     },
 };
@@ -17,31 +17,30 @@ const skillVariants = {
 const itemVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-    exit: { opacity: 0, y: -50, transition: { duration: 0.4 } }, 
+    exit: { opacity: 0, y: -50, transition: { duration: 0.4 } },
 };
 
 function Skills() {
     return (
         <>
-        <section className="section-skills" id="skills">
-            <h1>Minhas habilidades:</h1>
-            <motion.div
-                className="skills-cont"
-                variants={skillVariants} 
-                initial="hidden"
-                whileInView="visible" 
-                exit="hidden" 
-                viewport={{ once: true, amount: 0.4 }} 
-            >
-                {skill.map((skillItem) => (
-                    <motion.div 
-                        key={skillItem.title} 
-                        variants={itemVariants} 
-                    >
-                        <Skill title={skillItem.title} image={skillItem.image} />
-                    </motion.div>
-                ))}
-            </motion.div>
+            <section className="section-skills" id="skills">
+                <h1>Minhas habilidades:</h1>
+                <motion.div
+                    className="skills-cont"
+                    variants={skillVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    exit="hidden"
+                    viewport={{ once: true, amount: 0.4 }} >
+                    {skill.map((skillItem) => (
+                        <motion.div
+                            key={skillItem.title}
+                            variants={itemVariants}
+                        >
+                            <Skill title={skillItem.title} image={skillItem.image} />
+                        </motion.div>
+                    ))}
+                </motion.div>
             </section>
         </>
     )

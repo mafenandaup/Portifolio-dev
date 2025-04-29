@@ -86,3 +86,9 @@
     border-radius: 8px; 
     object-fit: cover; 
 }
+
+.icon-projs{
+    filter: invert();
+    width: 100%;
+    max-width: 20rem; 
+}
