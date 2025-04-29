@@ -85,3 +85,13 @@ html{
         color: var(--forest-green);
     }
 }
+
+
+@media (max-width: 709px) {
+    .navbar-links a {
+        font-size: 1.18rem;
+    }
+    .mylogo img {
+        height: 40px;
+    }
+}
