@@ -13,7 +13,8 @@
     background: var(--notpureblack);
     color: var(--baby-powder);
     min-width: 100vw;
-    height: 500px;
+    height: 450px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,3 +93,4 @@
     width: 100%;
     max-width: 20rem; 
 }
+

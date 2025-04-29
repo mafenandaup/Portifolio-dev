@@ -13,7 +13,7 @@ section {
     background-color: var(--baby-powder);
     min-width: 100vw;
     min-height: 500px;
-    padding: 20px;
+    padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,8 +38,38 @@ article h4, article h5, article p {
 }
 .autor-img{
     border: solid white 2px;
-    height: 350px;
+    height: 22rem;
     border-radius: 50%;
     filter: drop-shadow(-5px 10px 20px  #acacb2);
-    animation: testOpacity 2s ease forwards, slideLeft 1s ease-out forwards;
+}
+
+@media (max-width: 854px) {
+    article h4, article h5,article p {
+        font-size:0.9rem;
+    }
+    article h1{
+        font-size: 2.4rem;
+    }
+
+    .autor-img{
+        height: 19rem;
+    }
+}
+
+
+@media (max-width: 692px) {
+    article h4, article h5,article p {
+        font-size:0.8rem;
+    }
+    article h1{
+        font-size: 2.3rem;
+    }
+
+    .autor-img{
+        height: 16rem;
+    }
+}
+
+
+@media (max-width: 480px) {
 }
