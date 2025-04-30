@@ -20,23 +20,34 @@ function Hero() {
                     <a href='#contact'>Minhas Redes</a>
                 </div>
                 <div className='mylogo'>
-                    <motion.img whileTap={{rotate:10}} src={logoImage} alt="catlogo" />
                 </div>
             </nav>
 
             <section className='hero-contain' id='home'>
-                <div className='button-container'>
-                    <motion.button whileHover={{scale: 1.1}} whileTap={{ scale: 1}} className='action-button'>
-                        <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
-                            <h3>ENTRE EM CONTATO</h3> <FontAwesomeIcon icon={faEnvelope} />
-                        </a>
-                    </motion.button>
+                <div className='logo-btns'>
+                    <motion.img animate={{
+                        rotate: [ 5, -7, 5, -7,5], // Keyframes de rotação
+                    }}
+                        transition={{
+                            duration: 3, // Tempo total de ida e volta
+                            ease: "easeInOut", // Tipo de transição
+                            repeat: Infinity, // Repetição infinita
+                        }} src={logoImage} alt="catlogo" className='my-logo' />
+                    <h1>Maria Fernanda Maia</h1>
+                    <h3>Web Developer, Front-End Developer & Graphic Designer.</h3>
+                    <div className='button-container'>
+                        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }} className='action-button'>
+                            <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
+                                <h3>ENTRE EM CONTATO</h3> <FontAwesomeIcon icon={faEnvelope} />
+                            </a>
+                        </motion.button>
 
-                    <motion.button whileHover={{scale: 1.1}}whileTap={{ scale: 1}}  className='action-button'>
-                        <a href={cv} download={cv} aria-label='Curriculum'>
-                            <h3>DOWNLOAD CV</h3> <FontAwesomeIcon icon={faEnvelopeOpenText} />
-                        </a>
-                    </motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }} className='action-button'>
+                            <a href={cv} download={cv} aria-label='Curriculum'>
+                                <h3>DOWNLOAD CV</h3> <FontAwesomeIcon icon={faEnvelopeOpenText} />
+                            </a>
+                        </motion.button>
+                    </div>
                 </div>
             </section>
         </>
