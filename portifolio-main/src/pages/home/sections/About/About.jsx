@@ -31,7 +31,7 @@ function About() {
     return (
         <>
             <section id='about'>
-                <motion.img ref={ref} variants={imgTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit"src={iconImage} alt="foto da autora" className='autor-img' />
+                <motion.img ref={ref} variants={imgTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit"src={iconImage} whileHover={{scale:1.02}} alt="foto da autora" className='autor-img' />
                 <article>
                     <motion.h1 ref={ref} variants={titleTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Além do Código</motion.h1>
                     <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Maria Fernanda, Front-end Developer</motion.p><br />

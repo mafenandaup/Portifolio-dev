@@ -7,9 +7,9 @@ import cv from '../Hero/curriculum.pdf'
 import { motion, scale } from "framer-motion";
 
 const skillVariants = {
-    hidden: { opacity: 0, y: 20 }, 
-    visible: { opacity: 1, y: 0,  transition: { duration: 0.9 }, },
-    exit: { opacity: 0, y: -50, transition: { duration: 0.4 } }, 
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.9 }, },
+    exit: { opacity: 0, y: -50, transition: { duration: 0.4 } },
 };
 
 function Hero() {
@@ -30,13 +30,13 @@ function Hero() {
             <section className='hero-contain' id='home'>
                 <div className='logo-btns'>
                     <motion.img animate={{
-                        rotate: [5, -7, 5, -7, 5], 
+                        rotate: [5, -7, 5, -7, 5],
                     }}
                         transition={{
-                            duration: 3, 
-                            ease: "easeInOut", 
-                            repeat: Infinity, 
-                        }} src={logoImage} alt="catlogo" variants={skillVariants} initial="hidden" whileInView="visible" exit="exit"viewport={{ once: true, amount: 0.4 }} className='my-logo' />
+                            duration: 3,
+                            ease: "easeInOut",
+                            repeat: Infinity,
+                        }} src={logoImage} alt="catlogo" variants={skillVariants} initial="hidden" whileInView="visible" exit="exit" viewport={{ once: true, amount: 0.4 }} className='my-logo' />
                     <h1>Maria Fernanda Maia</h1>
                     <h3 className='typewriter'>Web Developer, Front-End Developer & Graphic Designer.</h3>
                     <div className='button-container'>

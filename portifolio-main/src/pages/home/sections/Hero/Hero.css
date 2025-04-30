@@ -60,6 +60,7 @@ html{
     margin-top: 1rem;
     flex-direction: row;
     gap: 1rem;
+    filter: drop-shadow(4px 5px 6px #9a9aa283);
 }
 
 .logo-btns{
