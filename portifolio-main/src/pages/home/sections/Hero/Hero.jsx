@@ -26,12 +26,12 @@ function Hero() {
             <section className='hero-contain' id='home'>
                 <div className='logo-btns'>
                     <motion.img animate={{
-                        rotate: [ 5, -7, 5, -7,5], // Keyframes de rotação
+                        rotate: [5, -7, 5, -7, 5], 
                     }}
                         transition={{
-                            duration: 3, // Tempo total de ida e volta
-                            ease: "easeInOut", // Tipo de transição
-                            repeat: Infinity, // Repetição infinita
+                            duration: 3, 
+                            ease: "easeInOut", 
+                            repeat: Infinity, 
                         }} src={logoImage} alt="catlogo" className='my-logo' />
                     <h1>Maria Fernanda Maia</h1>
                     <h3>Web Developer, Front-End Developer & Graphic Designer.</h3>

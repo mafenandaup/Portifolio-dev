@@ -15,7 +15,7 @@ html{
 
 .hero-contain {
     padding: 30px;
-    background: linear-gradient(var(--green-yellow), var(--baby-powder));
+    background: linear-gradient(var(--green-yellow)10%, var(--baby-powder));
     min-width: 100vw;
     height: 500px;
     display: flex;
@@ -70,6 +70,9 @@ html{
     flex-direction: column;
     width: auto;
     color: var(--notpureblack);
+    & p{
+        color: var(--mantis);
+    }
 }
 
 .action-button {
