@@ -52,8 +52,7 @@ html{
 .my-logo {
     height: 11rem;
     width: 12rem;
-    filter: brightness(0.16) ;
-    flood-color: rgb(255, 145, 0);
+    filter: drop-shadow(-5px 5px 10px #5454586a);
 }
 
 .button-container {
@@ -70,9 +69,10 @@ html{
     flex-direction: column;
     width: auto;
     color: var(--notpureblack);
-    & p{
-        color: var(--mantis);
-    }
+}
+
+.typewriter{
+    color: var(--mantis);
 }
 
 .action-button {

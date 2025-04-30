@@ -6,7 +6,11 @@ import cv from '../Hero/curriculum.pdf'
 // eslint-disable-next-line no-unused-vars
 import { motion, scale } from "framer-motion";
 
-
+const skillVariants = {
+    hidden: { opacity: 0, y: 20 }, 
+    visible: { opacity: 1, y: 0,  transition: { duration: 0.9 }, },
+    exit: { opacity: 0, y: -50, transition: { duration: 0.4 } }, 
+};
 
 function Hero() {
     return (
@@ -32,9 +36,9 @@ function Hero() {
                             duration: 3, 
                             ease: "easeInOut", 
                             repeat: Infinity, 
-                        }} src={logoImage} alt="catlogo" className='my-logo' />
+                        }} src={logoImage} alt="catlogo" variants={skillVariants} initial="hidden" whileInView="visible" exit="exit"viewport={{ once: true, amount: 0.4 }} className='my-logo' />
                     <h1>Maria Fernanda Maia</h1>
-                    <h3>Web Developer, Front-End Developer & Graphic Designer.</h3>
+                    <h3 className='typewriter'>Web Developer, Front-End Developer & Graphic Designer.</h3>
                     <div className='button-container'>
                         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }} className='action-button'>
                             <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
