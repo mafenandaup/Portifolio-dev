@@ -12,6 +12,15 @@ const skillVariants = {
     exit: { opacity: 0, y: -50, transition: { duration: 0.4 } },
 };
 
+const blurVariants = {
+    hidden: { opacity: 0, filter: "blur(10px)" }, // Inicialmente invisível e com blur
+    visible: {
+        opacity: 1,
+        filter: "blur(0px)", // Aparece gradualmente e remove o blur
+        transition: { duration: 1, ease: "easeInOut" }, // Duração de 1s
+    },
+};
+
 function Hero() {
     return (
         <>
@@ -37,9 +46,18 @@ function Hero() {
                             ease: "easeInOut",
                             repeat: Infinity,
                         }} src={logoImage} alt="catlogo" variants={skillVariants} initial="hidden" whileInView="visible" exit="exit" viewport={{ once: true, amount: 0.4 }} className='my-logo' />
-                    <h1>Maria Fernanda Maia</h1>
-                    <h3 className='typewriter'>Web Developer, Front-End Developer & Graphic Designer.</h3>
-                    <div className='button-container'>
+                    <motion.h1
+                        variants={blurVariants}
+                        initial="hidden"
+                        animate="visible">Maria Fernanda Maia</motion.h1>
+                    <motion.h3
+                        className='typewriter'
+                        variants={blurVariants}
+                        initial="hidden"
+                        animate="visible"> Web Developer, Front-End Developer & Graphic Designer.</motion.h3>
+                    <motion.div className='button-container'  variants={blurVariants}
+                        initial="hidden"
+                        animate="visible">
                         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }} className='action-button'>
                             <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
                                 <h3>ENTRE EM CONTATO</h3> <FontAwesomeIcon icon={faEnvelope} />
@@ -51,7 +69,7 @@ function Hero() {
                                 <h3>DOWNLOAD CV</h3> <FontAwesomeIcon icon={faEnvelopeOpenText} />
                             </a>
                         </motion.button>
-                    </div>
+                    </motion.div>
                 </div>
             </section>
         </>
