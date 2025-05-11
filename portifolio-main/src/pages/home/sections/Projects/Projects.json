@@ -13,6 +13,13 @@
       "img": "/assets/imgs/portifolio.png",
       "srccode": "https://github.com/mafenandaup/Portifolio-dev",
       "ytlink": "https://youtu.be/TmQnnWf0UO4"
+    },
+    {
+       "title": "Corporate Translator (Maio 2025)",
+      "desc": "Um tradutor de frases coloquiais que as transforma em sentenças próprias para o ambiente de trabalho, também podendo traduzir frases formais para o contexto cotidiano.",
+      "img": "/assets/imgs/corptranslator.png",
+      "srccode": "https://github.com/mafenandaup/corporate-translator",
+      "ytlink": "https://youtu.be/HadhQm_52Vg"
     }
   ]
 }
