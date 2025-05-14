@@ -9,7 +9,7 @@
     --rebecca-purple: #5c3e84ff;
 }
 
-.section-projects{
+.section-projects {
     background: var(--notpureblack);
     color: var(--baby-powder);
     min-width: 100vw;
@@ -20,28 +20,28 @@
     justify-content: center;
 }
 
-.project-cont{
+.project-cont {
     padding: 2rem;
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    
+
 }
 
 .section-projects h1 {
     font-size: 3.2rem;
     padding: 1rem;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
-.project-item{
+.project-item {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 25rem;
+    width: 26rem;
     padding: 1.5rem;
     gap: 1rem;
     border: solid var(--lavender-blush) 3px;
@@ -87,27 +87,53 @@
 
 .project-img {
     width: 100%;
-    max-width: 20rem; 
-    border-radius: 8px; 
-    object-fit: cover; 
+    max-width: 20rem;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
-.icon-projs{
+.icon-projs {
     filter: invert();
     width: 100%;
-    max-width: 20rem; 
+    max-width: 20rem;
+}
+
+@media (max-width: 1504px) {
+
+    .project-item{
+        width: 22rem;
+    }
+}
+
+@media (max-width: 1404px) {
+
+    .project-item{
+        width: 20rem;
+    }
+}
+@media (max-width: 1204px) {
+
+    .project-item{
+        width: 18rem;
+    }
 }
 
 @media (max-width: 904px) {
-.section-projects h1{
-    font-size: 2.5rem;
-    padding: 1rem;
-}
+
+    .section-projects h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+     .project-item{
+        width: 16rem;
+    }
 }
 
 
 @media (max-width: 709px) {
-    .section-projects h1{
+    .section-projects h1 {
         font-size: 2.1rem;
     }
+
 }
