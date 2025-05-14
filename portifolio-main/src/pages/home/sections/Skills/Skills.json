@@ -63,6 +63,14 @@
       {
         "title": "EclipseIDE",
         "image": "https://img.icons8.com/?size=100&id=w1uD6vtDitjr&format=png&color=000000"
+      },
+       {
+        "title": "PostgreSQL",
+        "image": "https://img.icons8.com/?size=100&id=36440&format=png&color=000000"
+      },
+        {
+        "title": "Trello",
+        "image": "https://img.icons8.com/?size=100&id=38573&format=png&color=000000"
       }
     ]
   }
