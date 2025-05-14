@@ -34,9 +34,10 @@ function About() {
                 <motion.img ref={ref} variants={imgTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit"src={iconImage} whileHover={{scale:1.02}} alt="foto da autora" className='autor-img' />
                 <article>
                     <motion.h1 ref={ref} variants={titleTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Além do Código</motion.h1>
-                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Maria Fernanda, Front-end Developer</motion.p><br />
-                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Graduanda em Engenharia de Software pela UCSAL, sou uma profissional imersa na busca por ressonância entre design e funcionalidade, priorizando a simplicidade e a excelência na experiência do usuário.</motion.p><br />
-                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Meu foco é entregar projetos que sejam não só úteis, mas que também tenham uma estética refinada, intuitiva e coesão nos elementos visuais. </motion.p><br />
+                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit="exit">Maria Fernanda, Front-end Developer</motion.p><br />
+                                        <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit"></motion.p>Apaixonada por idiomas, gatinhos, e coisas belas<br />
+                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Graduanda em Engenharia de Software pela UCSAL, busco ressonância entre design e funcionalidade, priorizando uma experiência do usuário de excelência</motion.p><br />
+                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Meu diferencial é entregar projetos que sejam não só úteis, mas que também tenham uma estética refinada, intuitiva e repleta de identidade visual. </motion.p><br />
                     <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Seja resolvendo problemas complexos ou me expressando criativamente, estou sempre aprendendo e cada vez mais me aprimorando como profissional. </motion.p>
                 </article>
 
