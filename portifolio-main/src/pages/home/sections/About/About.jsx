@@ -35,10 +35,10 @@ function About() {
                 <article>
                     <motion.h1 ref={ref} variants={titleTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Além do Código</motion.h1>
                     <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit="exit">Maria Fernanda, Front-end Developer</motion.p><br />
-                                        <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit"></motion.p>Apaixonada por idiomas, gatinhos, e coisas belas<br />
+                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Apaixonada por idiomas, gatinhos, e Sans Serif;</motion.p><br />
                     <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Graduanda em Engenharia de Software pela UCSAL, busco ressonância entre design e funcionalidade, priorizando uma experiência do usuário de excelência</motion.p><br />
                     <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Meu diferencial é entregar projetos que sejam não só úteis, mas que também tenham uma estética refinada, intuitiva e repleta de identidade visual. </motion.p><br />
-                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Seja resolvendo problemas complexos ou me expressando criativamente, estou sempre aprendendo e cada vez mais me aprimorando como profissional. </motion.p>
+                    <motion.p ref={ref} variants={textTransition} initial="hidden" animate={isInView ? "visible" : "hidden"} exit= "exit">Venha conhecer mais, onde estou sempre me desafiando e aprimorando a cada projeto :) </motion.p>
                 </article>
 
             </section>
