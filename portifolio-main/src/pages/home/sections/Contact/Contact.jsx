@@ -18,7 +18,7 @@ function Contact() {
                     <div className='logos'>
                         <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com/in/mariafpm/" target="_blank" aria-label='Linkedin' rel="noopener noreferrer"><img src={LKDLogo} className='logo-adjust' alt="lINKEDIN-LOGO" /></motion.a >
                         <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} href="https://github.com/mafenandaup" target="_blank" aria-label='Github' rel="noopener noreferrer"><img src={GHLogo} className='logo-adjust' alt="GITHUB-LOGO" /></motion.a >
-                        <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} href="mailto:mariafernandapmaia@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"><img src={EMAILLogo} className='logo-adjust' alt="EMAIL-LOGO" /></motion.a >
+                        <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} href="mailto:mariafernandapmaia@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"  rel="noopener noreferrer"><img src={EMAILLogo} className='logo-adjust' alt="EMAIL-LOGO" /></motion.a >
                     </div>
                 </div>
                 <div className='social-media'>

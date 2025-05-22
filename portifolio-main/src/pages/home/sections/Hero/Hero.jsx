@@ -59,7 +59,7 @@ function Hero() {
                         initial="hidden"
                         animate="visible">
                         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 1 }} className='action-button'>
-                            <a href="mailto:mariafernandapmaia@gmail.com" aria-label='Mail'>
+                            <a href="mailto:mariafernandapmaia@gmail.com" rel="noopener noreferrer" aria-label='Mail'>
                                 <h3>ENTRE EM CONTATO</h3> <FontAwesomeIcon icon={faEnvelope} />
                             </a>
                         </motion.button>
