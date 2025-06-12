@@ -17,7 +17,6 @@ function Projects() {
         <>
 
             <section className='section-projects' id='projects'>
-                <h1>Meus projetos:</h1>
                 <motion.div className="project-cont" variants={skillVariants} initial="hidden" whileInView="visible" exit="exit"viewport={{ once: true, amount: 0.4 }}>
                 {project.map((project) => (
                     <Project key={project.title} title={project.title} img={project.img} desc={project.desc} srccode={project.srccode} ytlink={project.ytlink}/>

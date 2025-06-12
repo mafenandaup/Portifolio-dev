@@ -12,12 +12,14 @@
 .section-projects {
     background: var(--notpureblack);
     color: var(--baby-powder);
-    min-width: 100vw;
-    height: 450px;
-    padding: 22rem;
+    width: 100%; /* Melhor que 100vw */
+    height: auto; /* Permite conteúdo expandir */
+    padding: 4rem; /* Menor padding para evitar excessos */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .project-cont {
@@ -25,13 +27,16 @@
     display: flex;
     flex-direction: row;
     gap: 3rem;
-
+    margin: 0 auto; 
+    max-width: 100%;
 }
+
 
 .section-projects h1 {
     font-size: 3.2rem;
     padding: 1rem;
     white-space: nowrap;
+    color: var(--baby-powder);
 }
 
 .project-item {
