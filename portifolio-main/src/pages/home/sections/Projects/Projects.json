@@ -24,7 +24,7 @@
      {
        "title": "Página do Professor (Junho 2025)",
       "desc": "Aplicação crud que mantem registros de aulas, alunos e a relação entre eles. Útil para a organização de registros.",
-      "img": "../../../../../public/assets/imgs/paginadoprof.png",
+      "img": "/assets/imgs/paginadoprof.png",
       "srccode" : "https://github.com/mafenandaup/pagina-do-prof",
       "ytlink": ""
     }

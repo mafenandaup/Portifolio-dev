@@ -127,3 +127,12 @@ html{
         height: 40px;
     }
 }
+
+@media (max-width: 170px) {
+    .navbar-links a {
+        font-size: 1rem;
+    }
+    .mylogo img {
+        height: 30px;
+    }
+}
