@@ -88,10 +88,16 @@
 
     .section-skills {
         min-width: 100vw;
-        height: 62rem;
+        height: 50rem;
     }
 
-
+.skills-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60rem;
+    gap: 1rem;
+    justify-content: center;
+}
     h1 {
         font-size: 2.6rem;
     }

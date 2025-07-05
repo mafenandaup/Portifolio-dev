@@ -27,6 +27,13 @@
       "img": "/assets/imgs/paginadoprof.png",
       "srccode" : "https://github.com/mafenandaup/pagina-do-prof",
       "ytlink": ""
+    },
+      {
+       "title": "Página Só pra Elas (Julho 2025)",
+      "desc": "Landing Page feita para uma Autoescola fictícia, sendo um CFC especializado em atender o público feminino.",
+      "img": "/assets/imgs/spelas.png",
+      "srccode" : "https://github.com/mafenandaup/so-pra-elas",
+      "ytlink": ""
     }
   ]
 }
